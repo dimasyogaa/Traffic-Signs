@@ -1,0 +1,148 @@
+<resources>
+    <string name="app_name">Traffic Signs</string>
+    <string name="description">Description</string>
+    <string name="warning01">Warning of Narrowing of the Road Body on the Left and Right</string>
+    <string name="warning02">Warning of Road Widening on the Left and Right Sides</string>
+    <string name="warning03">Warning for Narrowing of the Left Side of the Road</string>
+    <string name="warning04">Warning for Narrowing of the Right Side of the Road</string>
+    <string name="warning05">Warning for Road Widening on the Left</string>
+    <string name="warning06">Warning for Road Widening on the Right</string>
+    <string name="warning07">Left Lane Reduction Warning</string>
+    <string name="warning08">Right Lane Reduction Warning</string>
+    <string name="warning09">Right Row Added Warning</string>
+    <string name="warning10">Specific Roadway Chart Narrowing Warning Bridge Warning</string>
+    <string name="prohibition01">Entry Prohibition for Motorized and Non-Motorized Vehicles</string>
+    <string name="prohibition02">No Entry for Motorcycles</string>
+    <string name="prohibition03">No Entry for; Three-Wheel Motor Vehicle</string>
+    <string name="prohibition04">Entrance Ban for Individual Passenger Cars</string>
+    <string name="prohibition05">No Entry for Goods Cars</string>
+    <string name="prohibition06">Entry Prohibition for Public Motorized Vehicles</string>
+    <string name="prohibition07">Entry Prohibition for Motorized Vehicles with; Outboards</string>
+    <string name="prohibition08">Entry Prohibition for Motorized Vehicles with; Overall Weight Equal to or More Than 5 tons</string>
+    <string name="prohibition09">Entry Prohibition for Motorized Vehicles with; Axle Load Equal or More Than 8 tons</string>
+    <string name="prohibition10">Prohibition of Vehicles with a speed of more than 40 km/h</string>
+    <string name="command01">Left Following Command</string>
+    <string name="command02">Right Following Command</string>
+    <string name="command03">Left Turn Command</string>
+    <string name="command04">Right Turn Command</string>
+    <string name="command05">Command Runs Straight</string>
+    <string name="command06">Command Select Straight or Turn Left</string>
+    <string name="command07">Straight or Turn Right Commands</string>
+    <string name="command08">Command to enter Designated Path or Lane (to the left)</string>
+    <string name="command09">Command to enter Designated Path or Lane (to the right)</string>
+    <string name="command10">Command to Use Bike-Specific Traffic Lanes or Lanes</string>
+    <string name="guide01">Predecessor of Course Guide Denoting Course Intended</string>
+    <string name="guide02">Predecessor of Course Directions Showing Distance to Courses to Go</string>
+    <string name="guide03">Toll Road Early Limit Sign</string>
+    <string name="guide04">Toll Road Deadline Sign</string>
+    <string name="guide05">Inner Ring Toll Road Early Limit Sign</string>
+    <string name="guide06">Inner Ring Toll Road Deadline Sign</string>
+    <string name="guide07">Airport Locator</string>
+    <string name="guide08">Trash Bin Location Instructions</string>
+    <string name="guide09">Pedestrian Crossing Facility Location Instructions</string>
+    <string name="guide10">Parking Facility Locator</string>
+    <string name="title_guide">Guide</string>
+    <string name="title_command">Command</string>
+    <string name="title_warning">Warning</string>
+    <string name="title_prohibition">Prohibition</string>
+    <string name="text_more_information">To find out more information, please visit the website below</string>
+    <string name="text_web_1">PDF</string>
+    <string name="text_web_2">PEMERINTAHKOTA.COM</string>
+    <string name="todo">TODO</string>
+    <integer-array name="data_warning_photo">
+        <item>@drawable/ic_warning_01</item>
+        <item>@drawable/ic_warning_02</item>
+        <item>@drawable/ic_warning_03</item>
+        <item>@drawable/ic_warning_04</item>
+        <item>@drawable/ic_warning_05</item>
+        <item>@drawable/ic_warning_06</item>
+        <item>@drawable/ic_warning_07</item>
+        <item>@drawable/ic_warning_08</item>
+        <item>@drawable/ic_warning_09</item>
+        <item>@drawable/ic_warning_10</item>
+    </integer-array>
+    <string-array name="data_warning_description">
+        <item>@string/warning01</item>
+        <item>@string/warning02</item>
+        <item>@string/warning03</item>
+        <item>@string/warning04</item>
+        <item>@string/warning05</item>
+        <item>@string/warning06</item>
+        <item>@string/warning07</item>
+        <item>@string/warning08</item>
+        <item>@string/warning09</item>
+        <item>@string/warning10</item>
+    </string-array>
+    <integer-array name="data_prohibition_photo">
+        <item>@drawable/ic_prohibition_01</item>
+        <item>@drawable/ic_prohibition_02</item>
+        <item>@drawable/ic_prohibition_03</item>
+        <item>@drawable/ic_prohibition_04</item>
+        <item>@drawable/ic_prohibition_05</item>
+        <item>@drawable/ic_prohibition_06</item>
+        <item>@drawable/ic_prohibition_07</item>
+        <item>@drawable/ic_prohibition_08</item>
+        <item>@drawable/ic_prohibition_09</item>
+        <item>@drawable/ic_prohibition_10</item>
+    </integer-array>
+    <string-array name="data_prohibition_description">
+        <item>@string/prohibition01</item>
+        <item>@string/prohibition02</item>
+        <item>@string/prohibition03</item>
+        <item>@string/prohibition04</item>
+        <item>@string/prohibition05</item>
+        <item>@string/prohibition06</item>
+        <item>@string/prohibition07</item>
+        <item>@string/prohibition08</item>
+        <item>@string/prohibition09</item>
+        <item>@string/prohibition10</item>
+    </string-array>
+    <integer-array name="data_command_photo">
+        <item>@drawable/ic_command_01</item>
+        <item>@drawable/ic_command_02</item>
+        <item>@drawable/ic_command_03</item>
+        <item>@drawable/ic_command_04</item>
+        <item>@drawable/ic_command_05</item>
+        <item>@drawable/ic_command_06</item>
+        <item>@drawable/ic_command_07</item>
+        <item>@drawable/ic_command_08</item>
+        <item>@drawable/ic_command_09</item>
+        <item>@drawable/ic_command_10</item>
+    </integer-array>
+    <string-array name="data_command_description">
+        <item>@string/command01</item>
+        <item>@string/command02</item>
+        <item>@string/command03</item>
+        <item>@string/command04</item>
+        <item>@string/command05</item>
+        <item>@string/command06</item>
+        <item>@string/command07</item>
+        <item>@string/command08</item>
+        <item>@string/command09</item>
+        <item>@string/command10</item>
+    </string-array>
+    <integer-array name="data_guide_photo">
+        <item>@drawable/ic_guide_01</item>
+        <item>@drawable/ic_guide_02</item>
+        <item>@drawable/ic_guide_03</item>
+        <item>@drawable/ic_guide_04</item>
+        <item>@drawable/ic_guide_05</item>
+        <item>@drawable/ic_guide_06</item>
+        <item>@drawable/ic_guide_07</item>
+        <item>@drawable/ic_guide_08</item>
+        <item>@drawable/ic_guide_09</item>
+        <item>@drawable/ic_guide_10</item>
+    </integer-array>
+    <string-array name="data_guide_description">
+        <item>@string/guide01</item>
+        <item>@string/guide02</item>
+        <item>@string/guide03</item>
+        <item>@string/guide04</item>
+        <item>@string/guide05</item>
+        <item>@string/guide06</item>
+        <item>@string/guide07</item>
+        <item>@string/guide08</item>
+        <item>@string/guide09</item>
+        <item>@string/guide10</item>
+    </string-array>
+</resources>

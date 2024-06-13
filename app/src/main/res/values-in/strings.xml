@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Traffic Signs</string>
+    <string name="description">Deskripsi</string>
+    <string name="warning01">Peringatan Penyempitan Badan Jalan di Bagian Kiri dan Kanan</string>
+    <string name="warning02">Peringatan Pelebaran Badan Jalan di Bagian Kiri dan Kanan</string>
+    <string name="warning03">Peringatan Penyempitan Badan Jalan di Bagian Kiri</string>
+    <string name="warning04">Peringatan Penyempitan Badan Jalan di Bagian Kanan</string>
+    <string name="warning05">Peringatan Pelebaran Badan Jalan di Bagian Kiri</string>
+    <string name="warning06">Peringatan Pelebaran Badan Jalan di Bagian Kanan</string>
+    <string name="warning07">Peringatan Pengurangan Lajur Kiri</string>
+    <string name="warning08">Peringatan Pengurangan Lajur Kanan</string>
+    <string name="warning09">Peringatan Penambahan Lajur Kanan</string>
+    <string name="warning10">Peringatan Jembatan Peringatan Penyempitan Bagan Jalinan Jalan Tertentu</string>
+    <string name="prohibition01">Larangan Masuk Bagi Kendaraan Bermotor dan Tidak Bermotor</string>
+    <string name="prohibition02">Larangan Masuk bagi Sepeda Motor</string>
+    <string name="prohibition03">Larangan Masuk bagi; Kendaraan Bermotor Roda Tiga</string>
+    <string name="prohibition04">Larangan Masuk bagi Mobil Penumpang Perseorangan</string>
+    <string name="prohibition05">Larangan Masuk bagi Mobil Barang</string>
+    <string name="prohibition06">Larangan Masuk bagi Kendaraan Bermotor Umum</string>
+    <string name="prohibition07">Larangan Masuk bagi Kendaraan Bermotor dengan; Kereta Tempel</string>
+    <string name="prohibition08">Larangan Masuk bagi Kendaraan Bermotor dengan; Berat Keseluruhan Sama atau Lebih dari 5 ton</string>
+    <string name="prohibition09">Larangan Masuk bagi Kendaraan Bermotor dengan; Beban Sumbu Sama atau Lebih dari 8 ton</string>
+    <string name="prohibition10">Larangan Menjalankan Kendaraan dengan Kecepatan Lebih dari 40 km/jam</string>
+    <string name="command01">Perintah Mengikuti ke Arah Kiri</string>
+    <string name="command02">Perintah Mengikuti ke Arah Kanan</string>
+    <string name="command03">Perintah Belok ke Arah Kiri</string>
+    <string name="command04">Perintah Belok ke Arah Kanan</string>
+    <string name="command05">Perintah Berjalan Lurus</string>
+    <string name="command06">Perintah Memilih Lurus atau Belok Kiri</string>
+    <string name="command07">Perintah Memilih Lurus atau Belok Kanan</string>
+    <string name="command08">Perintah Memasuki Jalur atau Lajur yang Ditunjuk (ke kiri)</string>
+    <string name="command09">Perintah Memasuki Jalur atau Lajur yang Ditunjuk (ke kanan)</string>
+    <string name="command10">Perintah Menggunakan Jalur atau Lajur Lalu Lintas Khusus Sepeda</string>
+    <string name="guide01">Pendahulu Petunjuk Jurusan yang Menunjukkan Jurusan yang Dituju</string>
+    <string name="guide02">Pendahulu Petunjuk Jurusan yang Menunjukkan Jarak Jurusan yang Dituju</string>
+    <string name="guide03">Rambu Petunjuk Batas Awal Jalan Tol</string>
+    <string name="guide04">Rambu Petunjuk Batas Akhir Jalan Tol</string>
+    <string name="guide05">Rambu Petunjuk Batas Awal Jalan Tol Lingkar Dalam</string>
+    <string name="guide06">Rambu Petunjuk Batas Akhir Jalan Tol Lingkar Dalam</string>
+    <string name="guide07">Petunjuk Lokasi Bandar Udara</string>
+    <string name="guide08">Petunjuk Lokasi Tempat Penampungan Sampah</string>
+    <string name="guide09">Petunjuk Lokasi Fasilitas Penyeberangan Pejalan Kaki</string>
+    <string name="guide10">Petunjuk Lokasi Fasilitas Parkir</string>
+    <string name="title_guide">Petunjuk</string>
+    <string name="title_command">Perintah</string>
+    <string name="title_warning">Peringatan</string>
+    <string name="title_prohibition">Larangan</string>
+    <string name="text_more_information">Untuk mengetahui informasi selengkapnya bisa kunjungi web di bawah ini</string>
+    <string name="text_web_1">PDF</string>
+    <string name="text_web_2">PEMERINTAHKOTA.COM</string>
+    <string name="todo">TODO</string>
+
+</resources>

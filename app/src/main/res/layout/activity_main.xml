@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorOnPrimary"
+    android:scrollbars="none"
+    tools:context=".view.MainActivity"
+    tools:ignore="Overdraw">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="36dp">
+
+        <ImageView
+            android:id="@+id/iv_header_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="36dp"
+            android:layout_marginEnd="16dp"
+            android:contentDescription="@string/todo"
+            android:src="@drawable/ic_logo_header"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:id="@+id/ly_linear_menu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            android:orientation="vertical"
+            android:paddingStart="24dp"
+            android:paddingEnd="24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/iv_header_logo">
+
+            <Button
+                android:id="@+id/btn_guide_sign"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/bg_btn"
+                android:fontFamily="@font/mbold"
+                android:text="@string/title_guide"
+                android:textColor="?attr/colorOnPrimary"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btn_command_sign"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/bg_btn"
+                android:fontFamily="@font/mbold"
+                android:text="@string/title_command"
+                android:textColor="?attr/colorOnPrimary"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btn_warning_sign"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/bg_btn"
+                android:fontFamily="@font/mbold"
+                android:text="@string/title_warning"
+                android:textColor="?attr/colorOnPrimary"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btn_prohibition_sign"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/bg_btn"
+                android:fontFamily="@font/mbold"
+                android:text="@string/title_prohibition"
+                android:textColor="?attr/colorOnPrimary"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:orientation="vertical"
+            android:paddingStart="24dp"
+            android:paddingEnd="24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ly_linear_menu">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="4dp"
+                android:background="?attr/colorOnSecondary" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/mregular"
+                android:text="@string/text_more_information"
+                android:textAlignment="center"
+                android:textColor="?attr/colorOnSecondary"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btn_web_1"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/bg_btn"
+                android:fontFamily="@font/mmedium"
+                android:text="@string/text_web_1"
+                android:textColor="?attr/colorOnPrimary"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn_web_2"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/bg_btn"
+                android:fontFamily="@font/mmedium"
+                android:text="@string/text_web_2"
+                android:textColor="?attr/colorOnPrimary"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
